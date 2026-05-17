@@ -1,4 +1,4 @@
-# Disable power management at boot for the wifi card (useful for rtw89 cards)
+# Disable power management at boot for the wifi card
 
 #!/bin/bash
 
