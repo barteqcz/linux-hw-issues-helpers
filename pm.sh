@@ -18,3 +18,6 @@ RemainAfterExit=yes
 [Install]
 WantedBy=multi-user.target
 EOF
+
+sudo systemctl daemon-reload
+sudo systemctl enable --now wifi-powersave-off
