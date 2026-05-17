@@ -4,7 +4,7 @@
 
 wifi_card_name="wlan0"
 
-sudo tee /etc/systemd/system/wif-powersave-off.service > /dev/null <<EOF
+sudo tee /etc/systemd/system/wifi-powersave-off.service > /dev/null <<EOF
 [Unit]
 Description=Disable WiFi power saving
 After=network.target
